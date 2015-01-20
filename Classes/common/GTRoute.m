@@ -176,7 +176,7 @@ FOUNDATION_STATIC_INLINE GTTravelModeVehicleType GTTravelModeVehicleTypeFromNSSt
     else if ([string isEqualToString:@"cablecar"]) {
         return GTTravelModeVehicleTypeCableCar;
     }
-    else if ([string isEqualToString:@"commutertrain"]) {
+    else if ([string isEqualToString:@"commutertrain"] || [string isEqualToString:@"COMMUTER_TRAIN"] ) {
         return GTTravelModeVehicleTypeCommuterTrain;
     }
     else if ([string isEqualToString:@"funicular"]) {

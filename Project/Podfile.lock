@@ -1,6 +1,8 @@
 PODS:
-  - GTFoundation (0.1.1)
-  - GTLocation (0.0.9):
+  - GTFoundation (0.1.4):
+    - GTFoundation/Colors (= 0.1.4)
+  - GTFoundation/Colors (0.1.4)
+  - GTLocation (0.0.94):
     - GTFoundation (~> 0.1)
 
 DEPENDENCIES:
@@ -11,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ./../
 
 SPEC CHECKSUMS:
-  GTFoundation: 8c58ddfbfd16bb7bc541d0c9691928f00c15fed9
-  GTLocation: 2e74be8f1b4261a06ad5a31eb3bba94d86a912cf
+  GTFoundation: ef904d0c4d1981c55edbf229444654822ff6b06c
+  GTLocation: 6ccb794fdf51bc11511c694e32778e6623256290
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.35.0
